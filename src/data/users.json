@@ -5,7 +5,9 @@
     "password": "password123",
     "naam": "TYY  ",
     "rol": "admin",
-    "actief": true
+    "actief": true,
+    "bsn": 1232131321
+
   },
   {
     "id": 2,
@@ -13,7 +15,9 @@
     "password": "welkom01",
     "naam": "Lisa de Vries",
     "rol": "gebruiker",
-    "actief": true
+    "actief": true,
+    "bsn": 1232131321
+
   },
   {
     "id": 3,
@@ -21,6 +25,7 @@
     "password": "testpassword",
     "naam": "Klaas Tester",
     "rol": "gebruiker",
-    "actief": true
+    "actief": true,
+    "bsn": 1232131321
   }
 ]
