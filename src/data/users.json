@@ -21,6 +21,6 @@
     "password": "testpassword",
     "naam": "Klaas Tester",
     "rol": "gebruiker",
-    "actief": false
+    "actief": true
   }
 ]
