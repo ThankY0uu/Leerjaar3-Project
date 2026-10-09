@@ -17,7 +17,7 @@ export default function Sidebar() {
     const linkClass = (path) => `
         flex items-center gap-3 px-4 py-3 rounded-xl font-medium transition-colors
         ${isActive(path)
-            ? 'bg-orange-50 text-[#FF7A00]'
+            ? 'bg-[#D29A55]/10 text-[#D29A55]'
             : 'text-gray-600 hover:bg-gray-50 hover:text-gray-900'}
     `;
 

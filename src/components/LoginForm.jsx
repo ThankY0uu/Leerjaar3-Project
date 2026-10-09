@@ -23,8 +23,8 @@ export default function Login() {
       }
 
       // Sla op in localStorage en stuur door
-      localStorage.setItem('mamprofs_user', JSON.stringify(user));
-      navigate('/dashboard');
+      localStorage.setItem('mam_user', JSON.stringify(user));
+      navigate('/');
 
     } else {
       setError("Ongeldig e-mailadres of wachtwoord. Probeer het opnieuw.");
