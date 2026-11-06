@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "email": "admin@mam.nl",
+    "password": "password123",
+    "naam": "TYY  ",
+    "rol": "admin",
+    "actief": true,
+    "bsn": 1232131321,
+    "verlofSaldo": {
+      "totaalUren": 160,
+      "gebruikteUren": 0,
+      "resterendeUren": 160
+    },
+    "verlofHistorie": []
+  },
+  {
+    "id": 2,
+    "email": "gebruiker@mam.nl",
+    "password": "welkom01",
+    "naam": "Lisa de Vries",
+    "rol": "gebruiker",
+    "actief": true,
+    "bsn": 1232131321,
+    "verlofSaldo": {
+      "totaalUren": 160,
+      "gebruikteUren": 24,
+      "resterendeUren": 136
+    },
+    "verlofHistorie": [
+      {
+        "id": 101,
+        "startDatum": "2026-10-10",
+        "eindDatum": "2026-10-12",
+        "type": "Vakantie",
+        "uren": 24,
+        "status": "Goedgekeurd",
+        "opmerking": "Herfstuitje"
+      },
+      {
+        "id": 104,
+        "startDatum": "2026-10-14",
+        "eindDatum": "2026-10-19",
+        "type": "Vakantie",
+        "uren": 24,
+        "status": "Afgekeurd",
+        "opmerking": "Herfstuitje"
+      },
+      {
+        "id": 102,
+        "startDatum": "2026-11-05",
+        "eindDatum": "2026-11-05",
+        "type": "Bijzonder verlof",
+        "uren": 8,
+        "status": "In afwachting",
+        "opmerking": "Doktersbezoek"
+      }
+    ,
+      {
+        "id": 102,
+        "startDatum": "2026-11-05",
+        "eindDatum": "2026-11-05",
+        "type": "Bijzonder verlof",
+        "uren": 20,
+        "status": "Goedgekeurd",
+        "opmerking": "Doktersbezoek"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "email": "test@mam.nl",
+    "password": "testpassword",
+    "naam": "Klaas Tester",
+    "rol": "gebruiker",
+    "actief": true,
+    "bsn": 1232131321,
+    "verlofSaldo": {
+      "totaalUren": 160,
+      "gebruikteUren": 0,
+      "resterendeUren": 160
+    },
+    "verlofHistorie": []
+
+  }
+]
